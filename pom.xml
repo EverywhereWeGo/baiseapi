@@ -98,7 +98,7 @@
                             <!-- 生成的manifest中classpath的前缀，因为要把第三方jar放到lib目录下，所以classpath的前缀是lib/ -->
                             <classpathPrefix>lib/</classpathPrefix>
                             <!-- 应用的main class -->
-                            <mainClass>com.bfd.Get</mainClass>
+                            <mainClass>com.bfd.Main</mainClass>
                         </manifest>
                         <manifestEntries>
                             <!--将资源文件目录添加到classpath中，打包后运行项目时则会在该目录下加载配置文件-->
