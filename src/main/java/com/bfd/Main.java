@@ -42,5 +42,6 @@ public class Main {
         System.out.println("jenkisc测试4");
         System.out.println("jenkisc测试5");
         System.out.println("jenkisc测试6");
+        System.out.println("jenkisc测试7");
     }
 }
