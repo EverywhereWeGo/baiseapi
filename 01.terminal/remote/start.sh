@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 script_abs=$(readlink -f "$0")
 path=${script_abs%/bin*}
