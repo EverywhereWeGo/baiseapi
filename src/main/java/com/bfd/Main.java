@@ -43,5 +43,14 @@ public class Main {
         System.out.println("jenkisc测试5");
         System.out.println("jenkisc测试6");
         System.out.println("jenkisc测试7");
+        int i=0;
+        while (true){
+            System.out.println(i++);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
